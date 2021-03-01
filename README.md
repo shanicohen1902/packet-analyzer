@@ -20,7 +20,7 @@ For more information about Lua dissectors: https://wiki.wireshark.org/Lua
 1. Open Wireshark, or load Lua plugins while Wireshark is open with command/ctrl+shift+l
 
 # Example - Kafka network sniffer
-The attached Kafka capture, contains TCP frames assign to a Kafka broker. 
+The [attached](https://wiki.wireshark.org/SampleCaptures?action=AttachFile&do=get&target=kafka-testcases-v4.tar.gz)/create-topics Kafka capture, contains TCP frames assign to a Kafka broker.
 The new sub-protocol, parse kafka messages of type 19 (create-topic)
 
 ```lua
